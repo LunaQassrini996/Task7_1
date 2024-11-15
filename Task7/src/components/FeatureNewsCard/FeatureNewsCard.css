@@ -1,0 +1,83 @@
+.card-box{
+    position: relative;
+}
+.card-img img{
+    width: 290px;
+}
+.card-text{
+    padding: 20px 10px 10px 20px;
+    width: 90%;
+    border-radius: 6px;
+    box-shadow: 0px  2px 4px rgb(228, 222, 222); 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top:145px;
+    background-color: white;
+}
+.date-btn{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.date-btn span{
+    font-size: 11px;
+    color: #222;
+}
+.date-btn button{
+    padding: 4px 7px;
+    font-size: 10px;
+    border-radius: 15px;
+    border:1px solid #a1d5ff;
+    color:#384bff;
+    background-color: transparent;
+}
+.details-founder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.card-text h5{
+    width: 160px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.info-career{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.founder{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+.founder img{
+    width: 36px;
+}
+.founder p{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 9px;
+}
+.founder span{
+    font-size: 11px;
+    color: #222;
+    margin-left: 9px;
+}
+.arow-btn{
+    padding:4px 6px 0px 6px;
+    background-color: #c6e4fd;
+    border: 1px solid #a0d2fc ;
+}
+@media(max-width:531px){
+    .card-text{
+    z-index: -1;
+    top: 178px;
+    }
+}

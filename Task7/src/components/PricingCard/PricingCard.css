@@ -1,0 +1,97 @@
+.pricing-card{
+    width: max-content;
+    border: 1px solid #73abff;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-between;
+}
+.card-head{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#384bff;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+.card-head2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#18185e;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+.card-head h4 , .card-head2 h4{
+    font-size: 14px;
+}
+.card-head p , .card-head2 p{
+    font-size: 28px;
+    font-weight: 700;
+}
+.card-head p span , .card-head2 p span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.card-head img , .card-head2 img{
+    width: 60px;
+}
+.list{
+    width: 285px;
+    margin: 8px 0px 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+.list ul {
+    list-style:none;
+}
+.list ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.list .color-red{
+    color: red;
+}
+.icon-size{
+    font-size: 19px;
+}
+.large-btn , .large-btn2{
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.large-btn button{
+    width: 260px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #aab3ff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.large-btn2 button{
+    width: 260px;
+    padding: 10px;
+    background-color:#18185e;
+    border: 1px solid #aab3ff;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}

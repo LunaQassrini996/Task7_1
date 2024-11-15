@@ -1,0 +1,125 @@
+.customer{
+    margin-top: 75px;
+    padding-top: 100px ;
+}
+.testimonails{
+    background-color: aliceblue;
+    margin-top: 30px;
+    position: relative;
+}
+.up-sec{
+    width: 75%;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -100px;
+}
+.Top-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px ;
+}
+
+.Top-section img{
+    width: 150px;
+}
+.contact-title span{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.contact-title h2{
+    color: white;
+    width: 70%;
+    font-size: 18px;
+}
+.contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+.contact-button img{
+    width: 100px;
+}
+.contact-button button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+}
+.title-and-cards{
+    padding-top: 80px;
+}
+.an-title{
+    text-align:center ;
+    margin-top: 90px;
+}
+.an-title span{
+    color:#384bff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.an-title h2{
+    font-size: 28px;
+}
+.rating-card{
+    margin-top: 20px;
+    padding-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:42px
+}
+@media (max-width:1178px){
+    .contact-button img{
+        display: none;
+    }
+}
+@media (max-width:845px){
+    .Top-section img{
+        width: 100px;
+    }
+    .contact-title span{
+        color: white;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+    }
+    .contact-title h2{
+        color: white;
+        width: 85%;
+        font-size: 15px;
+    }
+    .title-and-cards{
+        padding-top: 100px;
+    }
+    .an-title h2{
+        font-size: 18px;
+    }
+    .Top-section{
+        height: 280px;
+        justify-content: start;
+    }
+    .up-sec{
+        width: 85%;
+    }
+}
+@media(max-width:524px){
+    .card1 , .card2{
+        display: none;
+    }
+}

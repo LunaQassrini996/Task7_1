@@ -1,0 +1,36 @@
+.teamcard{
+    width: max-content;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 250px;
+}
+.teamcard img{
+    width: 215px;
+    border-radius: 6px;
+}
+.txt-card{
+    width: 215px;
+    text-align: center;
+    padding: 25px 25px 15px 25px;
+    clip-path: polygon(0 15% , 100% 1% , 100% 100% , 0% 100% );
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    bottom: -42px;
+    right: 0;
+    left: 0;
+}
+.txt-card p{
+    font-size: 13px;
+}
+.share-icon{
+    width: 23px;
+    height: 23px;
+    padding: 1.5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    bottom: 27px;
+    color: white;
+}

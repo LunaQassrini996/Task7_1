@@ -1,0 +1,26 @@
+.HomeButton{
+    width: max-content ;
+    padding:14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background-color: #384bff;
+    color: white;
+    border-radius: 25px;
+}
+.HeroButton{
+    margin-top: 15px;
+    padding:14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: #f98600;
+    color: white;
+    border-radius: 25px;
+
+}
+.btn-icon{
+    margin-left: 5px;
+}

@@ -1,0 +1,82 @@
+.pricing-serv{
+    margin-top: 70px;
+    position: relative;
+}
+.diamond-shape{
+    position: absolute;
+    width: 40px;
+    right: 40px;
+}
+.title-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small-title{
+    color:#384bff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.title-part h2{
+    color:rgb(10, 10, 10);
+}
+.designs{
+    width:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.design-btn{
+    border: 1px solid #73abff;
+    padding: 3px;
+    border-radius: 20px;
+}
+.design-btn button{
+    border: none;
+    background-color: transparent;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.design-btn :nth-child(1){
+    margin-right: 8px;
+}
+.design-btn button:hover{
+    background-color:#384bff;
+    border-radius: 20px;
+    color: white;
+}
+.arrow-img{
+    width: 60px;
+}
+.designs span{
+    color:#384bff;
+    font-size: 14px;
+}
+.price-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+}
+.Hand{
+    width: 90px;
+    position: absolute;
+    bottom:22px;
+}
+@media (max-width:530px){
+    .designs{
+        flex-direction: column;
+    }
+    .title-part h2{
+        width: 90%;
+        text-align: center;
+        padding-left: 15px;
+    }
+    .Hand , .diamond-shape{
+        display: none;
+    }
+}

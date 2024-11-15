@@ -1,0 +1,40 @@
+.section2{
+    margin-top: 160px;
+    width: 100%;
+}
+.vdAndCards{
+    position: relative;
+    margin-top: 40px;
+}
+
+.Lq-number{
+    background-color:#18185e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px 0px 90px 140px ;
+    z-index: 8;
+}
+.vd iframe{
+    width: 81%;
+    height: 250px;
+    position:absolute ;
+    top: -120px;
+    left:130px;
+}
+ 
+@media (max-width:768px){
+    .vd iframe{
+        left: 85px;
+    }
+}
+@media (max-width:598px){
+    .vd iframe{
+        left: 40px;
+    }
+    .Lq-number{
+        justify-content: start;
+        padding-left: 12px;
+    }
+}
